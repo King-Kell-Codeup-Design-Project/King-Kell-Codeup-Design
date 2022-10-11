@@ -1,3 +1,6 @@
+#sidebar img{
+    width: 3em;
+}
 /* Small 510 */
 @media screen and (min-width: 510px) and (max-width: 902px) {
     .dotBig {
