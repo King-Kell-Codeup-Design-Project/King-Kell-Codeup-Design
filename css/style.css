@@ -64,16 +64,6 @@ h1, h2, h3 {
     font-family: 'Anton', sans-serif;
 }
 
-.circle-with-text {
-    /*border: white solid 5px;*/
-    /*color: white;*/
-    display: flex;
-    color: white;
-    border: 3px solid white;
-    width: 90px;
-    height: 90px;
-}
-
 nav {
     font-family: 'Abel', sans-serif;
 }
@@ -105,13 +95,15 @@ nav {
     font-size: .75em;
 }
 .dotBig {
-
     height: 90px;
     width: 90px;
     border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
     border: 3px solid white;
-    display: flex;
-    color: white;
 }
 
 .aside-img {
