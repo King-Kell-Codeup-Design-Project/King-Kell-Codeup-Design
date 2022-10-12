@@ -23,7 +23,7 @@
 /* Large 1094*/
 @media screen and (min-width: 1094px) and (max-width: 1653px) {
     .dotBig {
-        color: darkred;
+
     }
 }
 /* Extra Large (1654*/
@@ -37,7 +37,7 @@ body {
     font-family: 'Anton', 'Abel', sans-serif;
 }
 
-#logo {
+#logo-img {
     height: 105px;
     width: 105px;
     display: flex;
@@ -61,7 +61,7 @@ body {
     flex: left;
 }
 
-.heading {
+h1, h2, h3 {
     font: font-family: 'Anton', sans-serif;
 }
 

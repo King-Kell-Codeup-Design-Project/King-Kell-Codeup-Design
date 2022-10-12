@@ -13,32 +13,33 @@
 </head>
 <body>
 <!--Top Navigation Menu-->
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="navbar-brand text-dark" href="#top" >
-            <img src="img/logo.png" alt="Logo"  class="d-inline-block align-text-center logo heading">
-            codeup design
-        </a>
+<nav class="navbar navbar-expand-lg navbar-light px-2">
+    <a class="navbar-brand" href="#">
+            <img src="img/logo.png" id="logo-img" alt="Logo">
+        <span class="d-none d-lg-inline">codeup design</span>
+    </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent"
+            aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="white-text">
                 <i class="fa-solid fa-bars fa-1x"></i>
             </span>
         </button>
+
         <!--        Navigation links (hidden by default)-->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav" >
-                <a class="nav-link active text-secondary" aria-current="page" href="#">HOME</a>
-                <a class="nav-link text-secondary" href="#services">SERVICES</a>
-                <a class="nav-link text-secondary" href="#work">WORK</a>
-                <a class="nav-link text-secondary" href="#blog">BLOG</a>
-                <a class="nav-link text-secondary" href="#contact">CONTACT</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav mr-auto" >
+                <li class="nav-item active text-secondary" href="#">HOME</li>
+                <li class="nav-item active text-secondary" href="#">SERVICES</li>
+                <li class="nav-item active text-secondary" href="#">WORK</li>
+                <li class="nav-item active text-secondary" href="#">BLOG</li>
+                <li class="nav-item active text-secondary" href="#">CONTACT</li>
+            </ul>
         </div>
-    </div>
 </nav>
-<h1 class="heading">Visual Design & Web Development</h1>
-<h2 class="heading">From Park City, Utah</h2>
+<header class="row justify-content-center text-center mx-auto gap-4 w-75">
+    <h1>Visual Design & Web Development</h1>
+    <h2>From Park City, Utah</h2>
     <section class="container">
         <div class="row row-cols-auto">
     <ul>
@@ -114,6 +115,14 @@
             HOW TO GET GOOGLE TO LIKE YOU</div>
     </div>
 </aside>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 </html>
